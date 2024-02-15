@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 70;
+    background-color: rgba(208, 190, 139, 0.555);
+}
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+a{
+   height: 75px;
+   width: 70px;
+   background-color: rgb(238, 232, 232);
+   border-radius: 40px;
+   font-size: 35px;
+   margin: 20px;
+   padding: 20px;
+   box-shadow: 20px 20px 60px 
+   #00000041, inset -20px -20px 60px #ffffff40 ;
+}
+.fa-brands.fa-facebook{
+  color: rgb(26, 26, 239);
+}
+
+.fa-brands.fa-instagram{
+  color: #e84393;
+}
+
+.fa-brands.fa-twitter{
+   color: rgb(7, 255, 255);
+}
+
+.fa-brands.fa-linkedin{
+    color: #0872ac;
+}
+
+a i{
+  transition: all 0.3s linear;
+}
+
+a:hover i{
+  transform: scale(1.4);
+}
